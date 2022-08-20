@@ -1,0 +1,45 @@
+body {
+  background: #232526; 
+background: -webkit-linear-gradient(to right, #414345, #232526); 
+background: linear-gradient(to right, #414345, #232526); 
+
+}
+h1 {
+  font-size: 60px;
+  width: 100%;
+  font-family: 'Cinzel Decorative', cursive;
+  margin: 0 auto;
+  background: #ED213A;
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+  background: linear-gradient(to right, #93291E, #ED213A);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(2px 2px 2px #FFD700);
+  filter: drop-shadow(2px 2px 2px #FFD700);
+  background-clip: text;
+  text-align: center;
+}
+
+
+#navbar {
+  float: right;
+  background-color: #232526;
+}
+
+a, li {
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+a {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+a:hover, li:hover {
+  color: blue;
+}
